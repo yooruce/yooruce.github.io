@@ -1,0 +1,104 @@
+body {
+	padding: 0;
+	margin: 0;
+	background:  hsla(240, 20%, 98%, 1); 
+	color: #111;
+}
+
+.navbar {
+	background:  hsla(240, 20%, 98%, 1);
+	color: #111;
+}
+
+.nav-link,
+.navbar-brand {
+	color: #111;
+	cursor: pointer;
+}
+
+.nav-link {
+	margin-right: 1em !important;
+	color: #111;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+	color: gray;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+	
+}
+
+
+.header {
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.card-title, .card-body {
+	background-color: #eee;
+	color: #444;
+}
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description p {
+	color: rgb(0, 0, 0);
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+.page-footer {
+	background-color: #eee;
+	color:  #444;
+	padding: 60px 0 30px;
+
+}
+.features .form-control,
+.features input {
+		border-radius: 0;
+	}
+	.features .btn {
+		background-color: #589b37;
+		border: 1px solid #589b37;
+		color: #fff;
+		margin-top: 20px;
+	}
+	.features .btn:hover {
+		background-color: #333;
+		border: 1px solid #333;
+	}
+
+ .accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+	background-color: #ccc;
+  }
+  
+  .panel {
+	padding: 0 18px;
+	background-color: hsla(240, 20%, 98%, 1);
+	display: none;
+	overflow: hidden;
+  } 
